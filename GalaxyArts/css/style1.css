@@ -575,10 +575,10 @@ body.fade-in {
   margin: 0%;
 }
   .nav-content a{
-    font-size: 0.5rem;
+    font-size: 0.6rem;
   }
   .navbar-brand{
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin: 0%;
   }
   .display-flex{
@@ -596,7 +596,7 @@ body.fade-in {
   }
   .pannel-products a{
     margin:0%;
-    font-size: 0.5rem;
+    font-size: 0.6rem;
     font-weight: 500;
   }
   .about-product{
@@ -656,8 +656,7 @@ body.fade-in {
 .panel-2 a {
   margin-left: 4rem;
   margin-top: 5px;
-  font-size: 0.6rem;
-  font-family: cursive;
+  font-size: 0.7rem;
+  font-family: math;
 }
-
 }
