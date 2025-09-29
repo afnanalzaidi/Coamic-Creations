@@ -11,6 +11,7 @@ body , html {
 }
 body {
   opacity: 0;
+  padding-top: 70px;
   transition: opacity 0.6s ease;
 }
 
@@ -19,22 +20,27 @@ body.fade-in {
 }
 
 #mainnavbar {
-  height: 70px;
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
-  background-image: url("../assets/img/space-nav.jpg");
-  background-size: contain;  
-  background-position: center;
-  background-repeat: repeat; 
-  backdrop-filter: blur(8px);
+  height: 70px;
+  overflow: hidden; 
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 30px;
-  position: sticky;
-  top: 0;
   z-index: 1000;
 }
 
+#mainnavbar::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: url("../assets/img/space-nav.jpg") center/cover no-repeat;
+  filter: blur(2px);  
+  z-index: -1;         
+}
 .navbar-brand {
   font-size: 1.5rem;
   font-weight: 900;
@@ -93,9 +99,13 @@ body.fade-in {
     margin-left: 3rem;
 }
 .products-navbar {
+  position:fixed;
+  left: 0;
+  width: 100%;
   background: #fff;
   padding: 5px 0;
   border-bottom: 1px solid #ddd;
+  z-index: 999;
 }
 .pannel-products {
   display: flex;
@@ -533,6 +543,9 @@ body.fade-in {
 @media (max-width: 768px) {
   body{
     font-size: small;
+  }
+  .products-navbar {
+      top: 60px;
   }
 }
 @media (max-width:420px){
