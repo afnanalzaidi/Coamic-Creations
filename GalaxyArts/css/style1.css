@@ -413,6 +413,9 @@ body.fade-in {
   font-size: 1rem;
   color: #fff;
 }
+.display-block{
+  display: block;
+}
 
 .panel-2{
   max-height: 250px;
@@ -420,13 +423,13 @@ body.fade-in {
   color: rgb(229, 231, 236);
   display: flex;
   justify-content: center;
+  padding: 1rem;
   font-size: 1.5rem;
-  padding-bottom: 2rem;
 }
 .panel-2 h3{
   font-family: monospace;
   font-weight: 800;
-  margin-top: 30px;
+  font-size: 2.2rem;
   color: #05f3ef;
 }
 .panel-2 a{
@@ -448,6 +451,7 @@ body.fade-in {
   align-items: center;
   flex-wrap: wrap;
   gap: 0.5rem;
+  margin-left: 1rem;
 }
 .btn-viewdt {
   display: inline-block;
@@ -548,6 +552,17 @@ body.fade-in {
       top: 60px;
   }
 }
+@media (max-width: 768px) {
+  #mainnavbar .nav-content {
+    display: none;
+  }
+  #mainnavbar .nav-brand {
+    margin: 0 auto; 
+    text-align: center;
+    width: 100%;
+  }
+}
+
 @media (max-width:420px){
   #mainnavbar {
     height: 60px;
@@ -564,10 +579,12 @@ body.fade-in {
   #mainnavbar{
     padding: 0 1rem;
     height: 60px;
-    background-image: url("../assets/img/space-nav.jpg");
-    background-size: contain;  
-    background-position: center;
-    background-repeat: repeat;  
+    background-image:linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("../assets/img/space-nav.jpg");
+    background-size: cover;  
+    background-position: 100% 0%;
+  }
+   #mainnavbar::before {
+    display: none;
   }
   .nav-content{
   display: flex;
@@ -578,7 +595,7 @@ body.fade-in {
     font-size: 0.6rem;
   }
   .navbar-brand{
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     margin: 0%;
   }
   .display-flex{
@@ -643,20 +660,27 @@ body.fade-in {
   font-size: 0.6rem;
 }
 .panel-2 {
-   padding-bottom: 0.5rem;
+  padding: 0.5rem 1rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 .panel-2 h3 {
   margin: 0.3rem;
+  font-size: 1.2rem;
   font-family: sans-serif;
 }
 .panel-2 ul {
   font-size: 1rem;
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0%;
 }
 .panel-2 a {
-  margin-left: 4rem;
   margin-top: 5px;
-  font-size: 0.7rem;
+  font-size: 0.6rem;
   font-family: math;
 }
 }
