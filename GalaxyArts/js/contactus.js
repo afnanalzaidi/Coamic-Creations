@@ -1,4 +1,3 @@
-
 document.addEventListener("DOMContentLoaded", () => {
   document.body.classList.add("fade-in");
 
@@ -15,4 +14,3 @@ document.addEventListener("DOMContentLoaded", () => {
 function goToPage(page) {
   window.location.href = page;
 }
-
