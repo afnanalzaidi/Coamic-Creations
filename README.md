@@ -20,7 +20,7 @@ Technologies Used
 
 HTML5
 
-CSS3
+CSS
 
 JavaScript
 
@@ -30,16 +30,6 @@ Live Demo
 
 Check out the live project here: Galaxy Artworks
 
-Screenshots
-
-(Add screenshots of your site here if possible)
-
 Future Improvements
 
-Enhance the visual design for a more modern and professional look
-
-Add animations and interactive effects for better user experience
-
-Implement a gallery or blog section to showcase more products
-
-Optimize SEO and performance for faster loading
+Enhancing the visual design for a more modern and professional look and Making the purchasing logic Better !
