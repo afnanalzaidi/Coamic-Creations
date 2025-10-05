@@ -26,9 +26,8 @@ JavaScript
 
 Netlify (for deployment)
 
-Live Demo
-
-Check out the live project here: Galaxy Artworks
+## Live Demo
+Check out my project here: [Live Demo](galaxyartworks.netlify.app)
 
 Future Improvements
 
