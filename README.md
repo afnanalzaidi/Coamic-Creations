@@ -23,7 +23,7 @@ This project highlights my front-end development skills and serves as a portfoli
 • Deployment	Netlify
 🌐 Live Demo
 
-👉 Explore the project here: 🔗 Galaxy Artworks on Netlify
+👉 Explore the project here: 🔗https://galaxyartworks.netlify.app/
 
 📸 Preview
 
