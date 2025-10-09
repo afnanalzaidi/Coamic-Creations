@@ -578,7 +578,9 @@ body.fade-in {
   background: #07ea1adf;
   transform: translateY(-2px);
 }
-
+.nav-toggle {
+    display: none;
+}
 @media (max-width: 768px) {
   body{
     font-size: small;

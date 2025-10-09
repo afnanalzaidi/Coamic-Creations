@@ -238,6 +238,8 @@ a {
 .panel-1 a:hover {
     color: #01f9e6;
 }
+
+
 @media (max-width: 768px) {
   body,html{
     background-color: #000;
@@ -261,7 +263,7 @@ a {
     display: flex !important;
   }
     .nav-toggle {
-    display: block;         
+    display:block;         
     background: none;       
     border: none;
     color: #01f9e6;
